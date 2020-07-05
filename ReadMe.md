@@ -62,4 +62,26 @@ sayyed@neuro ~/n/p/nipype (master)>
 
 ### Adding first post 
 
-1. 
+1. Created `nipype.md` in content folder
+2. Added and committed then push to remote.
+
+### Adding [themes](https://github.com/getpelican/pelican-themes)
+
+1. Adding themes as a submodule in the main directory. `git submodule add https://github.com/getpelican/pelican-themes.git`. it is added from the main directory.
+2. Initilize the submodule
+
+```
+git submodule add https://github.com/getpelican/pelican-themes.git
+$ git submodule init
+$ git submodule update --init --recursive
+---
+git submodule add https://github.com/getpelican/pelican-plugins.git
+$ git submodule init
+$ git submodule update --init --recursive
+
+```
+
+---
+[//]:# (Note to self: I have to add changes to my jupy-pelican repot. This changes contain of adding themes and plug in directory but since they are huge I do not want to add them until I am sure that which them I am going to use. The rest will be deleted. Sam applies to submoudle.)
+
+[ ] Tomorrow I ahave to start frm [here](/https://pythonforundergradengineers.com/how-i-built-this-site-3.html).
